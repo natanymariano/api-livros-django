@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-4djtrdwcx6gkt!crfmg-8zc&-rijax2%bxod2o_gkg+o^7icg1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["livros.api.railway", "127.0.0.1"]
 
 
 # Application definition
